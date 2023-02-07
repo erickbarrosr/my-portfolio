@@ -3,6 +3,7 @@
   <head>
     <title>Erick Barros</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="index.js"></script>
   </head>
   <body>
     <div class="root-container">
@@ -11,11 +12,25 @@
           <div class="barra-navegacao">
             <h2 class="titulo-navegacao">Erick Barros</h2>
             <div>
-              <a class="links-navegacao">Tecnologias</a>
-              <a class="links-navegacao">Projetos</a>
-              <a class="links-navegacao">Experiências</a>
+              <a
+                class="links-navegacao"
+                onclick="onClickScrollTo('section-abilities')"
+                >Tecnologias</a
+              >
+              <a
+                class="links-navegacao"
+                onclick="onClickScrollTo('section-portfolio')"
+                >Projetos</a
+              >
+              <a
+                class="links-navegacao"
+                onclick="onClickScrollTo('section-experiences')"
+                >Experiências</a
+              >
             </div>
-            <button>CONTATO</button>
+            <button onclick="onClickScrollTo('section-contact')">
+              CONTATO
+            </button>
           </div>
           <div class="hero-info">
             <div>
@@ -26,7 +41,9 @@
                 Desenvolvedor Full-Stack, com foco em React e Node.js, atuando
                 em todos os tipos de projetos.
               </p>
-              <button>ENTRAR EM CONTATO</button>
+              <button onclick="onClickScrollTo('section-contact')">
+                ENTRAR EM CONTATO
+              </button>
               <div class="hero-info-icons-container">
                 <a
                   ><img
@@ -63,7 +80,7 @@
             </div>
           </div>
         </section>
-        <section class="section-abilities">
+        <section class="section-abilities" id="section-abilities">
           <h2>Tecnologias que</h2>
           <h2 class="verde">domino.</h2>
           <div class="ability-cards-container">
@@ -143,7 +160,7 @@
             </div>
           </div>
         </section>
-        <section class="section-portfolio">
+        <section class="section-portfolio" id="section-portfolio">
           <h2>Portfólio</h2>
           <h2 class="verde">de projetos.</h2>
           <div class="section-portfolio-grid">
@@ -230,7 +247,7 @@
             </div>
           </div>
         </section>
-        <section class="section-experiences">
+        <section class="section-experiences" id="section-experiences">
           <h2>Experiências</h2>
           <h2 class="verde">Profissionais.</h2>
           <!--div class="section-experiences-card">
@@ -274,7 +291,7 @@
             </div>
           </div>
         </section>
-        <section class="section-contact">
+        <section class="section-contact" id="section-contact">
           <h2>Como posso</h2>
           <h2 class="verde">te ajudar?</h2>
           <p>Estou à diposição para ajudar em seu projeto ou a sua empresa.</p>

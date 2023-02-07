@@ -65,6 +65,10 @@ footer {
   justify-content: center;
 }
 
+a {
+  color: #1e1e1e;
+}
+
 .root-container {
   display: flex;
   flex-direction: column;
@@ -122,7 +126,7 @@ footer {
   justify-content: space-between;
   width: 1216px;
   height: 594px;
-  padding-top: 64px;
+  padding-top: 100px;
 }
 
 .hero-info-title {
@@ -140,7 +144,7 @@ footer {
 
 .hero-info-image {
   width: 542px;
-  height: 594px;
+  height: 100%;
   border-radius: 40px;
   border-color: #ff7f50;
   border-width: 4px;
@@ -168,7 +172,7 @@ footer {
   align-items: center;
   justify-content: center;
   width: 100vw;
-  padding-top: 0px;
+  padding-top: 94px;
   padding-bottom: 64px;
 }
 
@@ -229,6 +233,7 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  padding-top: 94px;
 }
 
 .section-portfolio-grid {
@@ -286,7 +291,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 80px;
+  padding-top: 94px;
   padding-bottom: 0px;
   width: 100%;
 }
@@ -341,8 +346,8 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   width: 100%;
 }
 
@@ -351,6 +356,7 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-bottom: 16px;
 }
 
 .section-contact-item-icon {

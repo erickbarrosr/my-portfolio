@@ -7,6 +7,10 @@ The main goal is create a website with my professional information.
 
 <img src="https://github.com/erickbarrosr/my-portfolio/blob/main/imagens/readme.png" height="500"/>
 
+## Live link:
+
+https://erickbarrosr.github.io/my-portfolio/
+
 ## Main concepts applied
 
 - Flexbox
